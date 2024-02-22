@@ -64,7 +64,13 @@ nav img{
     width: 100%;
 }
 
+
 .grades {
+    position: relative;
+    top: -150px;
+    left: 280px;
+}
+.courses-grades {
     position: relative;
     top: -150px;
     left: 280px;
