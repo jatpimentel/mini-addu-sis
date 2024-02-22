@@ -7,9 +7,53 @@ const student_grades = [
         Column4: "B",
         Column5: "B",
         Column6: "A",
-        Column7: "3.00",
+        Column7: "2.00",
         Column8: "",
         
+    },
+    {
+        Column1: "CS 4253",
+        Column2: "SOCIAL ISSUES AND PROFESSIONAL PRACTICE",
+        Column3: "A",
+        Column4: "B",
+        Column5: "A",
+        Column6: "A",
+        Column7: "3.00",
+        Column8: ""
+
+    },
+    {
+        Column1: "CS 4256",
+        Column2: "CS ELECTIVE 4",
+        Column3: "A",
+        Column4: "B",
+        Column5: "A",
+        Column6: "A",
+        Column7: "3.00",
+        Column8: ""
+
+    },
+    {
+        Column1: "CS 4257",
+        Column2: "ARCHITECTURE AND ORGANIZATION",
+        Column3: "A",
+        Column4: "B",
+        Column5: "A",
+        Column6: "A",
+        Column7: "3.00",
+        Column8: ""
+
+    },
+    {
+        Column1: "IT 4258",
+        Column2: "INFORMATION ASSURANCE AND SECURITY 1",
+        Column3: "A",
+        Column4: "B",
+        Column5: "A",
+        Column6: "A",
+        Column7: "3.00",
+        Column8: ""
+
     },
     {
         Column1: "SUBJ NO",
