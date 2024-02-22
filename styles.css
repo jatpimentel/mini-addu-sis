@@ -3,3 +3,65 @@ td, th{
     text-align: left;
     padding: 8px;
 }
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 20px;
+    color: darkblue;
+}
+nav img{
+    width: 150px;
+    display: flex;
+    position: relative;
+    left: -70px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: darkblue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+} 
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+
