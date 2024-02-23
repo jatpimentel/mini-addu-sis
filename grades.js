@@ -1,5 +1,16 @@
 const student_grades = [
     {
+        Column11: "SUBJ NO",
+        Column22: "DESCRIPTIVE TITLE",
+        Column33: "PRELIM",
+        Column44: "MIDTERM",
+        Column55: "PRE-FINAL",
+        Column66: "FINAL",
+        Column77: "UNITS",
+        Column88: "CREDIT TO"
+
+    },
+    {
 
         Column1: "ASF 4204",
         Column2: "SENIOR'S INTEGRATION PROGRAM",
@@ -54,17 +65,6 @@ const student_grades = [
         Column7: "3.00",
         Column8: ""
 
-    },
-    {
-        Column1: "SUBJ NO",
-        Column2: "DESCRIPTIVE TITLE",
-        Column3: "PRELIM",
-        Column4: "MIDTERM",
-        Column5: "PRE-FINAL",
-        Column6: "FINAL",
-        Column7: "UNITS",
-        Column8: "CREDIT TO"
-
     }
 ]
 
@@ -86,12 +86,16 @@ for (let student of students){
 */
 
 for (let grades of student_grades){
-    const newRow = studentData.insertRow(0)
+    const newRow = studentData.insertRow(-1)
 
     for(let field in grades){
         const newCell = newRow.insertCell()
 
-        newCell.innerHTML = grades[field]
+        if (field === 'Column11' || field === 'Column22' || field === 'Column33' || field === 'Column44' || field === 'Column55' || field === 'Column66' || field === 'Column77' || field === 'Column88') {
+            newCell.innerHTML = "<b>" + grades[field] + "</b>";
+        } else {
+            newCell.innerHTML = grades[field];
+        }
     }
 }
 
