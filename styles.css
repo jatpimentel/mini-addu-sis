@@ -67,17 +67,37 @@ nav img{
 
 .teachers {
     position: relative;
-    top: -700px;
-    left: 460px;
+    display: flex;
+    top: -475px;
+    left: 268px;
+    border: 1px;
+    text-align: center;
+    padding: 8px;
 }
 
 .courses-css {
     position: relative;
     display: flex;
-    top: -500px;
-    left: 280px;
+    top: -475px;
+    left: 208px;
     border: 1px;
     text-align: center;
     padding: 8px;
+}
+
+.students-css{
+    position: relative;
+    display: flex;
+    top: -475px;
+    left: 358px;
+    border: 1px;
+    text-align: center;
+    padding: 8px;
+}
+
+.divider{
+    width: 300px;
+    height: 5px;
+    background-color: seagreen;
 }
 
