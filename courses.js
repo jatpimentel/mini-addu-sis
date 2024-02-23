@@ -11,38 +11,38 @@ const courses_data = [
     {
         CourseCode: "ASF 1203",
         CourseName: "NATIONAL SERVICE TRAINING PROGRAM - CIVIC WELFARE TRAINING SERVICE 2",
-        Slots: "# Slots",
-        Slots_remained: "# Slots Remained",
-        Start_Time:"Start Time",
-        End_Time:"End Time",
-        Day:"Days"
+        Slots: "45",
+        Slots_remained: "10",
+        Start_Time:"10:00 AM",
+        End_Time:"1:00 PM",
+        Day:"MW"
     },
     {
-        CourseCode: "Course Code",
-        CourseName: "Course Name",
-        Slots: "# Slots",
-        Slots_remained: "# Slots Remained",
-        Start_Time:"Start Time",
-        End_Time:"End Time",
-        Day:"Days"
+        CourseCode: "CS 2135",
+        CourseName: "DATA STRUCTURES AND ALGORITHMS",
+        Slots: "45",
+        Slots_remained: "21",
+        Start_Time:"7:40 AM",
+        End_Time:"9:40 PKM",
+        Day:"TTh"
     },
     {
-        CourseCode: "Course Code",
-        CourseName: "Course Name",
-        Slots: "# Slots",
-        Slots_remained: "# Slots Remained",
-        Start_Time:"Start Time",
-        End_Time:"End Time",
-        Day:"Days"
+        CourseCode: "IT 2239",
+        CourseName: "FUNDAMENTALS OF DATABASE SYSTEMS",
+        Slots: "45",
+        Slots_remained: "7",
+        Start_Time:"6:00 PM",
+        End_Time:"7:30 PM",
+        Day:"MW"
     },
     {
-        CourseCode: "Course Code",
-        CourseName: "Course Name",
-        Slots: "# Slots",
-        Slots_remained: "# Slots Remained",
-        Start_Time:"Start Time",
-        End_Time:"End Time",
-        Day:"Days"
+        CourseCode: "IT 2242",
+        CourseName: "STATISTICS FOR RESEARCH",
+        Slots: "35",
+        Slots_remained: "1",
+        Start_Time:"9:20 AM",
+        End_Time:"10:50 AM",
+        Day:"TTh"
     }
 ]
 
