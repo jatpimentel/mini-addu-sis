@@ -70,3 +70,13 @@ nav img{
     top: -150px;
     left: 280px;
 }
+
+.courses-css {
+    position: relative;
+    display: flex;
+    top: -500px;
+    left: 280px;
+    border: 1px;
+    text-align: center;
+    padding: 8px;
+}

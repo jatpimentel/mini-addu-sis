@@ -1,66 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Course List</title>
-  <style>
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      border: 1px solid #dddddd;
-      text-align: center;
-      padding: 8px;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEACHERS' PAGE</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
+    <section class="header">
+        <nav>
+            <a href="students.html"><img src="images/addu_icon.png" clas></a>
+            <h1>ATENEO DE DAVAO UNIVERSITY</h1>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="students.html">STUDENTS</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                </ul>
+            </div>
+        </nav> 
 
-  <h2>Course List</h2>
+    </section>
 
-  <table>
-    <tr>
-      <th>Course Code</th>
-      <th>Course Name</th>
-      <th># Slots</th>
-      <th># Slots Occupied</th>
-      <th>Start Time</th>
-      <th>End Time</th>
-      <th>Days</th>
-    </tr>
-    <tr>
-      <td>CSCI101</td>
-      <td>Introduction to Computer Science</td>
-      <td>50</td>
-      <td>35</td>
-      <td>9:00 AM</td>
-      <td>10:30 AM</td>
-      <td>MW</td>
-    </tr>
-    <tr>
-      <td>ENGL201</td>
-      <td>English Literature</td>
-      <td>40</td>
-      <td>25</td>
-      <td>11:00 AM</td>
-      <td>12:30 PM</td>
-      <td>TTH</td>
-    </tr>
-    <tr>
-      <td>MATH301</td>
-      <td>Advanced Calculus</td>
-      <td>30</td>
-      <td>15</td>
-      <td>1:00 PM</td>
-      <td>2:30 PM</td>
-      <td>F</td>
-    </tr>
-  </table>
-
+    <section class="courses-css">
+        <table id = "courses-data">
+            <thead>
+                <tr>    
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+    <script src="./test.js"></script>
 </body>
 </html>

@@ -96,3 +96,5 @@ for (let grades of student_grades){
 }
 
 /*------------------ COURSES DATA ---------------- */
+
+
