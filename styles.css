@@ -68,8 +68,8 @@ nav img{
 .teachers {
     position: relative;
     display: flex;
-    top: -475px;
-    left: 268px;
+    top: -675px;
+    left: 458px;
     border: 1px;
     text-align: center;
     padding: 8px;
@@ -78,8 +78,8 @@ nav img{
 .courses-css {
     position: relative;
     display: flex;
-    top: -475px;
-    left: 208px;
+    top: -675px;
+    left: 358px;
     border: 1px;
     text-align: center;
     padding: 8px;
@@ -88,8 +88,8 @@ nav img{
 .students-css{
     position: relative;
     display: flex;
-    top: -475px;
-    left: 358px;
+    top: -675px;
+    left: 508px;
     border: 1px;
     text-align: center;
     padding: 8px;
