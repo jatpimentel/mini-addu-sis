@@ -65,15 +65,7 @@ nav img{
 }
 
 
-.teachers {
-    position: relative;
-    display: flex;
-    top: -675px;
-    left: 458px;
-    border: 1px;
-    text-align: center;
-    padding: 8px;
-}
+
 
 .courses-css {
     position: relative;
@@ -101,3 +93,43 @@ nav img{
     background-color: seagreen;
 }
 
+
+
+/* TEACHERS */
+.teachers {
+    position: relative;
+    display: flex;
+    top: -50px;
+    left: 458px;
+    border: 1px;
+    text-align: center;
+    padding: 8px;
+}
+
+.subjects {
+    position: relative;
+    left: -440px;
+    border: 1px;
+    text-align: center;
+    top: -600px;
+}
+
+.subject-info{
+    position: relative;
+    left: 465px;
+    top: -1180px;
+}
+
+.subject-info table{
+    width: 1065px;
+}
+
+.guide-lines{
+    position: relative;
+    top:-790px;
+    left: 468px;
+}
+
+.guide-lines p{
+    font-size: 12px;
+}
