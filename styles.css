@@ -65,42 +65,12 @@ nav img{
 }
 
 
-
-
-.courses-css {
-    position: relative;
-    display: flex;
-    top: -675px;
-    left: 358px;
-    border: 1px;
-    text-align: center;
-    padding: 8px;
-}
-
-.students-css{
-    position: relative;
-    display: flex;
-    top: -675px;
-    left: 508px;
-    border: 1px;
-    text-align: center;
-    padding: 8px;
-}
-
-.divider{
-    width: 300px;
-    height: 5px;
-    background-color: seagreen;
-}
-
-
-
 /* TEACHERS */
 .teachers {
     position: relative;
     display: flex;
-    top: -50px;
-    left: 458px;
+    top: -350px;
+    left: 358px;
     border: 1px;
     text-align: center;
     padding: 8px;
@@ -108,10 +78,10 @@ nav img{
 
 .subjects {
     position: relative;
-    left: -440px;
+    left: -430px;
     border: 1px;
     text-align: center;
-    top: -600px;
+    top: -550px;
 }
 
 .subject-info{
@@ -126,10 +96,55 @@ nav img{
 
 .guide-lines{
     position: relative;
-    top:-790px;
-    left: 468px;
+    top:-1000px;
+    left: 368px;
 }
 
 .guide-lines p{
     font-size: 12px;
+}
+
+
+/* STUDENTS */
+.student-info2 {
+    position: relative;
+    display: flex;
+    top: -515px;
+    left: 308px;
+    border: 1px;
+    text-align: center;
+    padding: 8px;
+}
+
+.legends {
+    position: relative;
+    top: -505px;
+    left: 438px;
+}
+
+/* COURSES*/
+.courses-css {
+    position: relative;
+    display: flex;
+    top: -540px;
+    left: 258px;
+    border: 1px;
+    text-align: center;
+    padding: 8px;
+}
+
+.students-css{
+    position: relative;
+    display: flex;
+    top: -525px;
+    left: 308px;
+    border: 1px;
+    text-align: center;
+    padding: 8px;
+}
+
+.divider{
+    width: 300px;
+    height: 5px;
+    background-color: seagreen;
 }

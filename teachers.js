@@ -156,7 +156,7 @@ const another_table_data = [
     // Add more rows as needed
 ];
 
-const anotherTable = document.getElementById('another-table').getElementsByTagName('tbody')[0];
+const anotherTable = document.getElementById('another-table2').getElementsByTagName('tbody')[0];
 
 for (let rowData of another_table_data) {
     const newRow = anotherTable.insertRow(-1);
