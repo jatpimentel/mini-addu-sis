@@ -1,3 +1,54 @@
+const students_data = [
+    {
+        sCode1: "Code",
+        sNum: "12673",
+        sCourse: "Course:",
+        sCourseDesc:"BS-COMPSCI",
+        sYear:"Year:",
+        sYearNum:"4"
+    },
+    {
+        sName: "Student Name:",
+        sNameDesc: "DE JESUS, DWIGHT IAN MAGNO",
+        sDivision: "Division:",
+        sDivisionDesc: "CS",
+        sSection:"Section:",
+        sSectionDesc:"Comsc 4-A",
+    },
+    {
+        sRGC: "RGC No:",
+        sRGCDesc: "155448349",
+        sAcademicPeriod: "Academic Period:",
+        sAcademicPeriodDesc: "2nd Semester, 2021-2022",
+        sStatus:"Status:",
+        sStatusDesc:"Regular",
+    },
+    {   sRGC: "",
+        sRGCDesc: "",
+        sAnnualQPI: "Annual QPI:",
+        sAnnuaQPIDesc: "3.900",
+        sAcademicPeriod: "",
+        sAcademicPeriodDesc: "",
+    }
+]
+
+const studentsData = document.getElementById('students-data').getElementsByTagName('tbody')[0];
+
+for (let student of students_data){
+    const newRow = studentsData.insertRow(-1);
+
+    for(let field in student){
+        const newCell = newRow.insertCell();
+
+        if (field === 'sCode1' || field === 'sCourse' || field === 'sYear' || field === 'sName' || field === 'sDivision' || field === 'sSection' || field === 'sRGC'
+        || field === 'sAcademicPeriod' || field === 'sStatus' || field === 'sAnnualQPI') {
+            newCell.innerHTML = "<b>" + student[field] + "</b>";
+        } else {
+            newCell.innerHTML = student[field];
+        }
+    }
+}
+
 const student_grades = [
     {
         Column11: "CODE",
@@ -125,7 +176,8 @@ for (let grades of student_grades){
                                     <option value="B">C</option>
                                     <option value="C">D</option>
                                     <option value="B">F</option>
-                                    <option value="C">D</option>
+                                    <option value="D">FD</option>
+                                    <option value="D">WP</option>
                                     <!-- Add more options as needed -->
                                  </select>`;
         } else if (field === 'Column11' || field === 'Column22' || field === 'Column33' || field === 'Column44' || field === 'Column555' || field === 'Column66' || field === 'Column77' || field === 'Column88') {
