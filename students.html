@@ -4,39 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STUDENTS' PAGE</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="students.html"><img src="images/addu_icon.png" clas></a>
-            <h1>ATENEO DE DAVAO UNIVERSITY</h1>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="students.html">STUDENTS</a></li>
-                    <li><a href="teachers.html">TEACHERS</a></li>
-                    <li><a href="courses.html">COURSES</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="students.html">
+                <img src="images/addu_icon.png" class="img-fluid" alt="Addu Icon">
+            </a>
+            <h1 class="navbar-text">ATENEO DE DAVAO UNIVERSITY</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="students.html">STUDENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teachers.html">TEACHERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">COURSES</a>
+                    </li>
                 </ul>
             </div>
         </nav> 
         <hr>
-    </section>
+    </header>
 
-    <div class="content">
+    <div class="container">
         <section class="students-css">
-            <table id="students-data">
+            <table id="students-data" class="table">
                 <thead>
                     <tr>
+                        <!-- Add column headers here -->
                     </tr>	
                 </thead>
                 <tbody>
+                    <!-- Table content will be inserted here dynamically -->
                 </tbody>
                 <tfoot></tfoot>
             </table>
         </section>
 
-        <section class = "student-info2">
-            <table id="another-table2">
+        <section class="student-info2">
+            <table id="another-table2" class="table">
                 <thead>
                     <tr>
                         <!-- Add more column headers as needed -->
@@ -46,17 +59,22 @@
                     <!-- Table content will be inserted here dynamically -->
                 </tbody>
             </table>
+        </section>
 
-            </section>
-            <section class="legends">
-                <strong>legend: </strong>
-                <p><span style="font-style:italic;color:#6E6868;">n/a (not available)</span> - Please see finance office.</p>
-                <p><span style="font-style:italic;color:#6E6868;">GRADE</span> - Not yet verified</p>
-                <p><span style="font-weight:bold;color:red;">GRADE</span> - Failed</p>
-                <p><span style="font-weight:bold;">GRADE</span> - Passed</li></p>
-                <p><img src="https://sis.addu.edu.ph/sites/all/modules/accounts/images/lecture.png" height="15" style="vertical-align: bottom" /> - You have a pending lecture evaluation for this subject.</p>
-                <p><img src="https://sis.addu.edu.ph/sites/all/modules/accounts/images/laboratory.png" height="15" style="vertical-align: bottom" /> - You have a pending laboratory evaluation for this subject.</p>
-            </section>
+        <section class="legends">
+            <strong>legend: </strong>
+            <p><span style="font-style:italic;color:#6E6868;">n/a (not available)</span> - Please see finance office.</p>
+            <p><span style="font-style:italic;color:#6E6868;">GRADE</span> - Not yet verified</p>
+            <p><span style="font-weight:bold;color:red;">GRADE</span> - Failed</p>
+            <p><span style="font-weight:bold;">GRADE</span> - Passed</li></p>
+            <p><img src="https://sis.addu.edu.ph/sites/all/modules/accounts/images/lecture.png" height="15" style="vertical-align: bottom" /> - You have a pending lecture evaluation for this subject.</p>
+            <p><img src="https://sis.addu.edu.ph/sites/all/modules/accounts/images/laboratory.png" height="15" style="vertical-align: bottom" /> - You have a pending laboratory evaluation for this subject.</p>
+        </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./students.js"></script>
 </body>
 </html>
